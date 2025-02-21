@@ -8,6 +8,7 @@ const projects = [
   { title: "Project Two", description: "Another awesome project.", link: "#" },
 ];
 
+
 function App() {
   return (
     <div className="container">
