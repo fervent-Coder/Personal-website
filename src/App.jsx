@@ -5,7 +5,7 @@ import './App.css';
 
 const projects = [
   { title: "store", description: "A full-stack project utilizing MongolDB, react ,expresjs and node js to make a store that adds products with their name price and a url picture .", link: "https://github.com/fervent-Coder/Store" },
-  { title: "Project Two", description: "Another awesome project.", link: "#" },
+  { title: "portofolio", description: "Website i made to showcase my projects using react , html and css.", link: "https://github.com/fervent-Coder/Personal-website" },
 ];
 
 
