@@ -1,7 +1,6 @@
 {
-  "homepage": "https://fervent-Coder.github.io/Personal-website",
   "name": "personal-website",
-  "private": true,
+  "homepage": "https://fervent-coder.github.io/Personal-website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
