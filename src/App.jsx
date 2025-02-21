@@ -4,7 +4,7 @@ import { Github, Mail } from 'lucide-react';
 import './App.css';
 
 const projects = [
-  { title: "Project One", description: "A cool project I made.", link: "#" },
+  { title: "store", description: "A fullstack project utilizing MongolDB , react ,expresjs and node js to make a store that adds products with their name price and a url picture .", link: "https://github.com/fervent-Coder/Store" },
   { title: "Project Two", description: "Another awesome project.", link: "#" },
 ];
 
