@@ -4,9 +4,9 @@ import { Github, Mail } from 'lucide-react';
 import './App.css';
 
 const projects = [
+  { title: "Skin-Lesion-Classification-with-Multimodal-Deep-Learning", description: "This is a convolutional neural network (CNN) deep learning system That uses patient information like age, sex, and lesion location and skin images to tell what kind of skin lesion a patient has. This CNN uses simple methods like depthwise separable convolutions and squeeze-and-excitation blocks.", link: "https://github.com/fervent-Coder/Skin-Lesion-Classification-with-Multimodal-Deep-Learning" },
   { title: "Insulin Machine Simulation", description: "A full-stack University group project that simulated Tandem t:slim X2 Insulin Pump is a system designed to deliver precise insulin dosages for effective diabetes management. The goal of this project is to develop an interactive software simulation of the t:slim X2 pump in Qt/C++.", link: "https://github.com/team-62-hq/Insulin-Pump-Simulation" },
-  { title: "store", description: "A full-stack project utilizing MongolDB, react ,expresjs and node js to make a store that adds products with their name price and a url picture .", link: "https://github.com/fervent-Coder/Store" },
-  { title: "portofolio", description: "Website i made to showcase my projects using react , html and css.", link: "https://github.com/fervent-Coder/Personal-website" }
+  { title: "store", description: "A full-stack project utilizing MongolDB, react ,expresjs and node js to make a store that adds products with their name price and a url picture .", link: "https://github.com/fervent-Coder/Store" }
 ];
 
 
