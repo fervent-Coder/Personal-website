@@ -1,46 +1,107 @@
-body {
-  background-color: white;
-  color: purple;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
 .container {
+  max-width: 1100px;
+  margin: 0 auto;
   padding: 20px;
+  text-align: center;
 }
 
 .header {
   margin-bottom: 30px;
 }
 
+.header h1 {
+  margin-bottom: 0.25em;
+}
+
+.header p {
+  color: #5a2a8a;
+}
+
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   padding: 0 10px;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid purple;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
-button {
-  background-color: purple;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
+.card h2 {
+  margin: 0;
 }
 
-button:hover {
+.card .subtitle {
+  margin: 4px 0 0;
+  font-style: italic;
+  color: #5a2a8a;
+}
+
+.card p {
+  color: #333;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+.tags li {
+  font-size: 0.8em;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background-color: #f3e8fb;
+  color: purple;
+}
+
+/* Push the button / note to the bottom of every card so they line up */
+.btn,
+.private-note {
+  margin-top: auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: purple;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.btn:hover,
+.btn:focus-visible {
   background-color: #5a2a8a;
+}
+
+.btn:focus-visible {
+  outline: 3px solid #c79be6;
+  outline-offset: 2px;
+}
+
+.private-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  border: 1px dashed purple;
+  border-radius: 5px;
+  color: purple;
+  font-size: 0.95em;
 }
 
 .footer {
@@ -50,4 +111,8 @@ button:hover {
 .social-links a {
   margin: 0 10px;
   color: purple;
+}
+
+.social-links a:hover {
+  color: #5a2a8a;
 }
